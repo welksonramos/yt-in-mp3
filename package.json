@@ -1,10 +1,10 @@
 {
-  "name": "yt2mp3",
+  "name": "yt-in-mp3",
   "version": "0.1.0",
   "description": "Convert Youtube videos to mp3 using youtubeinmp3.com",
   "preferGlobal": true,
   "bin": {
-    "yt2mp3": "index.js"
+    "yt-in-mp3": "index.js"
   },
   "main": "index.js",
   "scripts": {
@@ -28,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/welksonramos/yt2mp3.git"
+    "url": "git+https://github.com/welksonramos/yt-in-mp3.git"
   },
   "bugs": {
-    "url": "https://github.com/welksonramos/yt2mp3/issues"
+    "url": "https://github.com/welksonramos/yt-in-mp3/issues"
   },
-  "homepage": "https://github.com/welksonramos/yt2mp3#readme"
+  "homepage": "https://github.com/welksonramos/yt-in-mp3#readme"
 }

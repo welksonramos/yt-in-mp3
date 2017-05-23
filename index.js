@@ -6,10 +6,10 @@ const getYoutubeUrl = require('./lib/get-youtube-url');
 
 const cli = meow(`
 	Usage
-	$ yt2mp3 <url>
+	$ yt-in-mp3 <url>
 
 	Example
-	$ yt2mp3 https://www.youtube.com/watch?v=JGwWNGJdvx8
+	$ yt-in-mp3 https://www.youtube.com/watch?v=QH2-TGUlwu4
 
 	Options
 	-h, --help        Output help menu
