@@ -3,6 +3,10 @@
 
 const meow = require('meow');
 const getYoutubeUrl = require('./lib/get-youtube-url');
+const updateNotifier = require('update-notifier');
+const pkg = require('./package.json');
+
+updateNotifier({pkg}).notify();
 
 const cli = meow(`
 	Usage
@@ -22,7 +26,8 @@ const cli = meow(`
 	});
 
 if (cli.input.length === 0 ) {
-	process.stderr.write('\nSpecify only a Youtube link for conversion!\n');
+	cli.showHelp(1)
+	// process.stderr.write('\nSpecify only a Youtube link for conversion!\n');
 	process.exit(1);
 }
 getYoutubeUrl(cli.input[0], cli.flags);
